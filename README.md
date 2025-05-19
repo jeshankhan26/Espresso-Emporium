@@ -21,7 +21,7 @@ A full-stack modern coffee management application built with the MERN stack and 
 
 ### 🔹 Deployment
 - **Frontend**: [Netlify 🌐](https://coffee-espresso.netlify.app/)
-- **Backend**: [Vercel ⚙️](https://coffee-espresso.netlify.app/login)
+- **Backend**: [Netlify 🌐](https://coffee-espresso.netlify.app/login)
 
 ---
 
