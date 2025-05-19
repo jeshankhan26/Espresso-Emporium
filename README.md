@@ -10,13 +10,13 @@ Component-based Architecture — Clean, scalable, and maintainable
 Deployed on Netlify 🌐
 🔗 [Live View](https://coffee-espresso.netlify.app/)
 
-🔹 Backend
+🔹 [Backend](https://coffee-espresso.netlify.app/login)
 Express.js — Manages API and server-side logic
 
 CRUD Operations — Add, View, Update, and Delete coffee items
 
 Deployed on Vercel ⚙️
-🔗 [Backend Link](https://coffee-espresso.netlify.app/login)
+🔗 Backend Link
 
 🔹 Authentication
 Firebase Authentication — Secure Sign-up / Sign-in functionality
@@ -42,47 +42,3 @@ Node.js
 MongoDB
 
 Firebase project setup
-
-Installation
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/espresso-emporium.git
-Navigate to frontend and install dependencies:
-
-bash
-Copy
-Edit
-cd client
-npm install
-Navigate to backend and install dependencies:
-
-bash
-Copy
-Edit
-cd ../server
-npm install
-Set up .env file in the backend:
-
-env
-Copy
-Edit
-MONGO_URI=your_mongodb_connection_string
-FIREBASE_API_KEY=your_firebase_key
-...
-Run locally:
-
-Frontend:
-
-bash
-Copy
-Edit
-npm run dev
-Backend:
-
-bash
-Copy
-Edit
-npm start
