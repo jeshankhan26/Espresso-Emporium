@@ -1,12 +1,88 @@
-# React + Vite
+☕ Espresso Emporium
+🚀 Espresso Emporium is a full-stack coffee management application built with the MERN stack and React + Vite, designed for both coffee lovers and tech enthusiasts. It offers a sleek interface and powerful backend for managing coffee items with secure user authentication.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔧 Tech Stack
+🔹 Frontend
+React + Vite — For lightning-fast UI and smooth developer experience
 
-Currently, two official plugins are available:
+Component-based Architecture — Clean, scalable, and maintainable
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Deployed on Netlify 🌐
+🔗 [Live View](https://coffee-espresso.netlify.app/)
 
-## Expanding the ESLint configuration
+🔹 Backend
+Express.js — Manages API and server-side logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CRUD Operations — Add, View, Update, and Delete coffee items
+
+Deployed on Vercel ⚙️
+🔗 [Backend Link](https://coffee-espresso.netlify.app/login)
+
+🔹 Authentication
+Firebase Authentication — Secure Sign-up / Sign-in functionality
+
+🔹 Database
+MongoDB (NoSQL) — For storing coffee item data
+
+dotenv — To manage and protect environment variables and credentials
+
+✨ Features
+Fully responsive and modern UI
+
+User authentication system
+
+Full CRUD operations for coffee inventory
+
+Clean code and structure for easy collaboration
+
+🚀 Getting Started
+Prerequisites
+Node.js
+
+MongoDB
+
+Firebase project setup
+
+Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/espresso-emporium.git
+Navigate to frontend and install dependencies:
+
+bash
+Copy
+Edit
+cd client
+npm install
+Navigate to backend and install dependencies:
+
+bash
+Copy
+Edit
+cd ../server
+npm install
+Set up .env file in the backend:
+
+env
+Copy
+Edit
+MONGO_URI=your_mongodb_connection_string
+FIREBASE_API_KEY=your_firebase_key
+...
+Run locally:
+
+Frontend:
+
+bash
+Copy
+Edit
+npm run dev
+Backend:
+
+bash
+Copy
+Edit
+npm start
